@@ -1,0 +1,62 @@
+body{
+	font-family: 'Source Sans Pro';	
+}
+
+.navbar-inverse {
+    background: #D89C22 !important;
+    margin-bottom: 10px;
+    box-shadow: 4px 2px 6px 0px #888888;
+    border: none !important;
+}
+
+.navbar-brand{
+	color : #fff !important;
+	font-size: 25px !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+	background-color: #7ca5d4 !important;
+}
+
+.navbar-nav > li > a{
+	color: #fff !important;
+	font-size: 18px !important;	
+}
+
+.activeMainMenu{
+	background-color: #7ca5d4;
+}
+
+.activeMainMenu a{
+	color: #000 !important;
+}
+
+h2.underline, h2.underline a{
+	text-align: center;
+}
+
+.occupation-name {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: #B9B8B7;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.list.list-1 li > div{
+	background-image: url("../../assets/images/marked_sign.png");	
+}
+
+ul.list li > div {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: left 2px;
+}
+
+.requiredSign {
+    color: red;
+    padding-left: 5px;
+}
