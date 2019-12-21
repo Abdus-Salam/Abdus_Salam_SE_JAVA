@@ -49,7 +49,7 @@
 							    <td> <%= i++ %></td>
 							    <td> <%= product.getName() %></td>
 							    <td> <%= product.getPrice() %></td>
-							    <td> <%= product.getProfit() %></td>
+							    <td> <%= product.getProfit() %>%</td>
 							    <% if(product.getType() == 1){ %>
 							    	<td> Ram </td>
 							    <% }else{
